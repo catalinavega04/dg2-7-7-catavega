@@ -80,6 +80,10 @@ body {
   font-family: var(--default-font);
 }
 
+.sitename {
+  font-family: Raleway;
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -91,14 +95,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  font-family: var(--default-font);
 }
 
 /* PHP Email Form Messages
@@ -181,7 +184,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
-  font-family: Quicksand;
+
 }
 
 .header .btn-getstarted,
@@ -647,6 +650,7 @@ h6 {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
+  font-family: Quicksand;
 }
 
 .page-title .breadcrumbs ol {
