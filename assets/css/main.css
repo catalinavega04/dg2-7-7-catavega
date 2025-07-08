@@ -181,6 +181,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+  font-family: Quicksand;
 }
 
 .header .btn-getstarted,
